@@ -4,37 +4,67 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Edem Marc SEGBETSE</title>
+    <title>Bienvenue!</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <style>
-      .image {
+      header {
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+      }
+
+      footer {
+      margin: 0px;
+      padding: 0px;
+      text-align: right;
+      }
+
+      #presentation {
+      margin-top: 7px;
+      padding: 0px;
+      width: 100%;
+      }
+
+      #description {
+      margin: 0px;
+      padding: 0px;
+      }
+
+      #image {
+      display: flex;
+      margin: 0px;
+      padding: 0px;
       float: left;
-      width: 100px;
+      width: 10%;
       }
     </style>
   <head>
 
-  <body>
-    <header>
-    </header>
-    <main>
-      <nav style="background-color:#A9A9A9; opacity:0.8" >
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="formation.html">Formation<a></li>
-          <li><a href="#">Domaine de compétence</a></li>
-          <li><a href="#">Expérience professionnelle</a></li>
-          <li><a href="#">Centres d'intérêt</a></li>
-          <li><a href="contact.html" target="_blank">Contacts</a></li>
-        </ul>
-      </nav>
-      <div class="image">
-        <img src="maphoto.jpg" alt="Photo introuvable!">
-      </div>
-        <p>Développeur web en devenir, étudiant en master de physique, amateur éclairé de musique, passionné de sport <br> Vivons nos rêves plutôt que de rêver notre vie! </p>
-    </main>
-    <footer>
-    </footer>
-  </body>
+    <body>
+      <header>
+        <p>Edem Marc SEGBETSE</p>
+      </header>
+      <main>
+        <nav style="background-color:#04090566; opacity:0.92" >
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="formation.html">Formation<a></li>
+            <li><a href="competence.html">Domaine de compétence</a></li>
+            <li><a href="experience.html">Expérience professionnelle</a></li>
+            <li><a href="interets.html">Centres d'intérêt</a></li>
+            <li><a href="contacts.html" target="_blank">Contacts</a></li>
+          </ul>
+        </nav>
+        <div id="presentation">
+          <div id="image">
+            <img src="maphoto.jpg" alt="Photo introuvable!">
+          </div>
+          <p id="description">Développeur web en devenir, étudiant en master de physique, amateur éclairé de musique, passionné de sport. <br> "Il faut savoir douter où il faut, assurer où il faut, en se soumettant où il faut." Blaise Pascal, Les <i>pensées</i> </p>
+        </div>
+      </main>
+      <footer>
+        <p>Janvier 2017</p>
+      </footer>
+    </body>
 
 </html>
