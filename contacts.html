@@ -1,0 +1,93 @@
+<! DOCTYPE html >
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Bienvenue!</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      header {
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+      }
+
+      footer {
+      margin: 0px;
+      padding: 0px;
+      text-align: right;
+      }
+
+      form {
+      margin-top: 7px;
+      padding: 0px;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      }
+
+      .conteneur{
+      margin: 1em;
+      width: 100%;
+      }
+
+      #identifiants {
+      display: flex;
+      justify-content: space-between;
+      }
+
+      textarea {
+      width: 88%;
+      height: 100%
+      }
+
+      .message {
+      height: 20vh;
+      }
+
+    </style>
+  <head>
+
+    <body>
+      <header>
+        <p>Edem Marc SEGBETSE</p>
+      </header>
+      <main>
+        <nav style="background-color:#04090566; opacity:0.92" >
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="formation.html">Formation<a></li>
+            <li><a href="competence.html">Domaine de compétence</a></li>
+            <li><a href="experience.html">Expérience professionnelle</a></li>
+            <li><a href="interets.html">Centres d'intérêt</a></li>
+            <li><a href="contacts.html" target="_blank">Contacts</a></li>
+          </ul>
+        </nav>
+        <form id="formulaire">
+          <div id="identifiants" class="conteneur">
+          <div>
+            <label for="prenom">Prénom: </label>
+            <input type="text" name="prenom" id="prenom"/>
+          </div>
+          <div>
+            <label for="nom">Nom: </label>
+            <input type="text" name="nom" id="nom"/>
+          </div>
+          </div>
+          <div class="conteneur">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email"/>
+          </div>
+          <div class="conteneur message">
+            <label for="message">Message: </label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+        </form>
+      </main>
+      <footer>
+        <p>Janvier 2017</p>
+      </footer>
+    </body>
+
+</html>
